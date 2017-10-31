@@ -4,10 +4,10 @@ In order to build all the files needed by automake and autoconf some
 operations are needed:
 
      autoreconf --install
-	  automake
-	  ./configure
-	  make
-	  make install
+     automake
+     ./configure
+     make
+     make install
 
 To change the installation path you can use the argument --prefix
 (See bellow for more detail)
