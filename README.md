@@ -33,3 +33,14 @@ Create a bew file in the archive with the name *name*.
 
 ## libmytar_addData
 Add data to the last added file. the *size* is the size of the object and the *ptr* is a pointer on it.
+
+# Compilation and installation
+This library use autotool.
+To compile it you have to do the following steps:
+ - autoreconf --install	--> This will generate the needed files.
+ - automake		--> This will generate some pre-makefile
+ - ./configure		
+ - make
+ - make install
+ 
+ See the INSTALL file for more details.
