@@ -1,0 +1,9 @@
+.*
+!.gitignore
+*.log
+*~
+*.out
++.o
+*.so
+*.lo
+*.la
