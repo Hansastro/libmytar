@@ -29,7 +29,7 @@ This function create a new archive file. The file has the name *archiveName*. Th
 Close the archive.
 
 ## libmytar_newFile
-Create a bew file in the archive with the name *name*.
+Create a new file in the archive with the name *name*.
 
 ## libmytar_addData
 Add data to the last added file. the *size* is the size of the object and the *ptr* is a pointer on it.
